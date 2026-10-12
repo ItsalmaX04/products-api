@@ -1,4 +1,4 @@
-package uk.ac.westminster.productsapi;
+package uk.ac.westminster.products_api;
 
     public class Address {
     private String street;
@@ -12,9 +12,12 @@ package uk.ac.westminster.productsapi;
         this.city = city;
         this.postcode = postcode;
     }
-    public String getStreet() { return street; }
-    public String getCity() { return city; }
-    public String getPostcode() { return postcode; }
+    public String getStreet() {
+        return street; }
+    public String getCity() {
+        return city; }
+    public String getPostcode() {
+        return postcode; }
 }
 
 
